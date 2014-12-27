@@ -1,0 +1,27 @@
+{
+  "name": "permission-middleware",
+  "version": "0.0.0",
+  "description": "A simple permission middleware for Express applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkretschek/permission-middleware"
+  },
+  "keywords": [
+    "permission",
+    "middleware",
+    "express",
+    "authorization",
+    "auth",
+    "access"
+  ],
+  "author": "Mathias Kretschek <contact@mathias.ms>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkretschek/permission-middleware/issues"
+  },
+  "homepage": "https://github.com/mkretschek/permission-middleware"
+}
