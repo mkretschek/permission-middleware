@@ -23,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/mkretschek/permission-middleware/issues"
   },
-  "homepage": "https://github.com/mkretschek/permission-middleware"
+  "homepage": "https://github.com/mkretschek/permission-middleware",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.12.4",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.6.0"
+  }
 }
