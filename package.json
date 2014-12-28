@@ -4,7 +4,8 @@
   "description": "A simple permission middleware for Express applications.",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "coverage": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --ui bdd --require ./test.js --reporter dot --timeout 5000 lib/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-mocha-test": "^0.12.4",
+    "istanbul": "^0.3.5",
     "mocha": "^2.1.0",
     "sinon": "^1.12.2",
     "sinon-chai": "^2.6.0"
