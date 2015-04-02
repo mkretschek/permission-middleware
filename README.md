@@ -5,9 +5,7 @@ A simple permissions middleware for Express applications which helps you
 to define and organize your application's access permissions.
 
 This will, however, make no assumptions about how to store, retrieve and
-associate those permissions to a given target (user, client, app, etc.). If
-you are looking for a full-fledged solution for managing and checking
-permissions, this middleware is probably not what you are looking for.
+associate those permissions to a given target (user, client, app, etc.).
 
 
 ## Instalation
