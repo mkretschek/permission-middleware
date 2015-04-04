@@ -1,5 +1,8 @@
-permission-middleware
+permission-middleware [ ![Codeship Status for mkretschek/permission-middleware](https://codeship.com/projects/4dff5200-7080-0132-b4f6-465f6b223ee2/status?branch=v0)](https://codeship.com/projects/54523)
 =====================
+
+[![NPM version](https://badge.fury.io/js/permission-middleware.svg)](http://badge.fury.io/js/permission-middleware)
+[![Coverage Status](https://coveralls.io/repos/mkretschek/permission-middleware/badge.svg?branch=v0)](https://coveralls.io/r/mkretschek/permission-middleware?branch=v0)
 
 A simple permissions middleware for Express applications which helps you
 to define and organize your application's access permissions.
